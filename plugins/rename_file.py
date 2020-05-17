@@ -102,7 +102,7 @@ async def rename_doc(bot, update):
                 # https://stackoverflow.com/a/37631799/4723940
                 # img.thumbnail((90, 90))
                 img.resize((320, height))
-                img.save(thumb_image_path, "JPEG")
+                img.save("https://extraimage.com/images/2020/05/02/IMG_20200407_132741_200c1acc3a77ebce334.jpg", "JPEG")
                 # https://pillow.readthedocs.io/en/3.1.x/reference/Image.html#create-thumbnails
             c_time = time.time()
             await bot.send_document(
